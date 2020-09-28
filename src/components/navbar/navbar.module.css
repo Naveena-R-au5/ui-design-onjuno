@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+.logo{
+    width:45px;
+    height:45px;
+}
+.nav{
+    padding:10px;
+    background-color: white !important;
+}
+.nav::shadow{
+    box-shadow: grey 1px 1px 3px;
+}
+.heading{
+    padding-left:50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 29px;
+}
+.homes{
+    font-size: 18px;
+    padding-left:10px;
+    font-weight: bold;
+}
+.home{
+    color:rgb(236, 132, 181) !important;
+    font-weight: bold;
+}
+.form{
+    display:flex;
+    justify-content: space-around !important;
+}
+.login{
+    margin-right: 30px;
+    color:blue;
+    border-color: blue;
+    border-width: 2px;
+    padding-left:30px;
+    padding-right:30px;
+    border-radius: 10px;
+}
+.login:hover{
+    background-color: blue;
+    color:white;
+    border-color: blue;
+    border-width: 2px;
+}
+.signup:hover{
+    background-color: white;
+    color:blue;
+    border-color:blue;
+    border-width: 2px;
+}
+.signup{
+    background-color: blue;
+    margin-right: 30px;
+    color:white;
+    padding-left:30px;
+    padding-right:30px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: blue;
+}

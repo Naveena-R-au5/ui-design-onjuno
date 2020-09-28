@@ -1,0 +1,233 @@
+.c1{
+     margin-top:-80px;
+    width:80%;
+    margin-left: 40px; 
+}
+.cc{
+    margin-top:-80px;
+   width:80%;
+   margin-left: 40px;
+   animation:hide-animation .5s 
+}
+@keyframes hide-animation{
+    0%{
+        opacity:0;
+        visibility: visible;
+    }
+    100%{
+        opacity:0;
+        visibility: hidden;
+    }
+}
+.cc:hover{
+    width:90%;
+    cursor: pointer;
+    margin-left: 30px; 
+   }
+.c1:hover{
+    cursor: pointer; 
+}
+.cards{
+    background-color: white;
+    width:23rem;
+    height:1%;
+    border-color: white;
+    text-align: center;
+}
+.card{
+    width:23rem;
+    background-color: rgb(210, 252, 210);
+    /* margin-left: 40px; */
+}
+.card2{
+    width:23rem;
+    background-color: rgb(235, 235, 235);
+    /* margin-left: 40px; */
+}
+.main{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:60px;
+}
+.body1{
+    background-color: rgb(210, 252, 210);
+}
+.body22{
+    background-color: rgb(229, 231, 229);
+}
+.body2{
+    background-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 1px ;
+}
+.bodyy{
+    background-color: rgb(245, 244, 244);
+    border-bottom-style: solid;
+    border-bottom-width: 1px ;
+}
+.h{
+    color: gray;
+    font-family: monospace;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.h2{
+    color:blue;
+    text-align: center;
+    font-weight: bolder;
+}
+.h22{
+    color:black;
+    text-align: center;
+    font-weight: bolder;
+}
+.h3{
+    text-align: center;
+}
+.mark{
+    background-color: green;
+    color:white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.mark2{
+    background-color: rgb(131, 133, 131);
+    color:white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.number{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.size{
+    font-size: 15px;
+    background-color: transparent;
+    color: gray;
+}
+.s{
+    font-size: 13px !important;
+    color: gray;
+    font-weight: bold;
+}
+.n{
+    color:rgb(8, 187, 8);
+    font-weight: bold;
+}
+.button{
+    width:100%;
+    height:50px;
+    border-radius: 15px;
+}
+.button2{
+    width:100%;
+    height:50px;
+    border-radius: 15px;
+    background-color: rgb(102, 100, 100) !important;
+    border-color: grey !important;
+}
+.div{
+    width:100%;
+    background-color: rgb(231, 226, 226);
+    height:13px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.div2{
+    width:90%;
+    background-color: rgb(3, 192, 35);
+    height:13px;
+    border-radius: 15px;
+}
+.head{
+    color:grey;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+.line{
+    font-size: 17px;
+    line-height: 35px;
+    color:rgb(88, 87, 87);
+}
+p{
+    font-size: 14px;
+    color: grey;
+}
+.p{
+    font-size: 14px;
+    color: grey;
+    margin-bottom: 35px !important;
+}
+.f{
+    text-decoration: line-through;
+    font-size: 17px;
+}
+.f1{
+    font-size: 25px;
+    color:green;
+}
+.f2{
+    font-size: 17px;
+    color:green;
+}
+.f22{
+    text-decoration: line-through;
+    font-size: 17px;
+    color: grey;
+}
+.f12{
+    font-size: 25px;
+    color:grey;
+    margin-bottom: 35px;
+}
+
+@media only screen and (max-width: 770px) {
+    .main{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        padding:60px;
+        margin-bottom: 50px;
+    }
+    .c1{
+        margin-top:-80px;
+        width:80%;
+        margin-left: 40px;
+    }
+    .card{
+        width:23rem;
+        background-color: rgb(210, 252, 210);
+        /* margin-left: 40px; */
+        margin-bottom: 100px;
+    }
+    .card2{
+        width:23rem;
+        background-color: rgb(235, 235, 235);
+        /* margin-left: 40px; */
+        margin-bottom: 100px;
+    }
+    .cards{
+        margin-bottom: 100px;
+    }
+    .cards:hover{
+        cursor: pointer;
+    }
+    .cc{
+        margin-top:-80px;
+       width:80%;
+       margin-left: 40px; 
+   }
+   .cc:hover{
+    width:90%;
+   }
+}
